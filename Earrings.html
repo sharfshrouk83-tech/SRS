@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Earrings| SRS Accessories</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+}
+
+header{
+    background:#111;
+    padding:20px;
+    text-align:center;
+    border-bottom:2px solid deeppink;
+}
+
+header h1{
+    color:deeppink;
+    margin-bottom:10px;
+}
+
+.back{
+    color:white;
+    text-decoration:none;
+    border:2px solid deeppink;
+    padding:10px 20px;
+    border-radius:30px;
+    display:inline-block;
+}
+
+.back:hover{
+    background:deeppink;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    width:250px;
+    background:#111;
+    border:2px solid deeppink;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:deeppink;
+    text-align:center;
+    margin:15px 0 10px;
+}
+
+.card p{
+    text-align:center;
+    padding-bottom:20px;
+    color:#ddd;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Bracelets Collection</h1>
+<a href="index.html" class="back">⬅ Back to Home</a>
+</header>
+
+<div class="gallery">
+<div class="card">
+<img src="https://images.pexels.com/photos/1454171/pexels-photo-1454171.jpeg" alt="Gold Earrings">
+<h3>Gold Bracelet</h3>
+<p>Elegant gold bracelet.</p>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/9428789/pexels-photo-9428789.jpeg" alt="Gold Earrings">
+<h3>Luxury Bracelet</h3>
+<p>Premium fashion style.</p>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/10983783/pexels-photo-10983783.jpeg" alt="Bracelet">
+<h3>Diamond Bracelet</h3>
+<p>Shiny diamond bracelet.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=600" alt="Diamond Earrings">
+<h3>Rose Gold</h3>
+<p>Beautiful rose gold design.</p>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+i<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tost</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#000;
+color:white;
+}
+
+header{
+background:#111;
+padding:20px;
+text-align:center;
+border-bottom:2px solid deeppink;
+}
+
+header h1{
+color:deeppink;
+}
+
+.back{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+border:2px solid deeppink;
+border-radius:30px;
+}
+
+.back:hover{
+background:deeppink;
+}
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:30px;
+}
+
+.card{
+width:250px;
+background:#111;
+border:2px solid deeppink;
+border-radius:20px;
+overflow:hidden;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3{
+color:deeppink;
+margin:15px 0 10px;
+}
+
+.card p{
+font-size:20px;
+margin-bottom:15px;
+}
+
+button{
+background:deeppink;
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:25px;
+margin-bottom:20px;
+cursor:pointer;
+}
+
+button:hover{
+background:#ff4fa3;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🪬 Bracelets Collection</h1>
+<a class="back" href="index.html">⬅ Back Home</a>
+</header>
+
+<div class="gallery">
+
+<div class="card">
+<img src="https://images.pexels.com/photos/7093761/pexels-photo-7093761.jpeg" alt="Bracelet">
+<h3>Silver Bracelet</h3>
+<p>350 EGP</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img  src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80" alt="Bracelet">
+<h3>Gold Bracelet</h3>
+<p>450 EGP</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/9890211/pexels-photo-9890211.jpeg" alt="Bracelet">
+<h3>Luxury Bracelet</h3>
+<p>600 EGP</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+
+</body>
+</html>
